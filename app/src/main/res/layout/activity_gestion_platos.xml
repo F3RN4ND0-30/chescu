@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorb"
+    tools:context=".Gestion.Gestion_platos_Activity"
+    android:orientation="vertical"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gestion de Platos"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_AgregarPlato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="#F6F696"
+        android:text="Agregar Nuevo Plato"
+        android:textSize="15dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rvPlatos"/>
+
+</LinearLayout>

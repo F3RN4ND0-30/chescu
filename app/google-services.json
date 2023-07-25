@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "63581979880",
+    "project_id": "chescu-b173e",
+    "storage_bucket": "chescu-b173e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63581979880:android:1e0d8b8ae5f0fb01cf355d",
+        "android_client_info": {
+          "package_name": "com.example.chescu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63581979880-ibbi7ra536o87lbq5khinsma1gkgsvl8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2FykK486o_v-IMwIBofKNYnjp0zbjVlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63581979880-ibbi7ra536o87lbq5khinsma1gkgsvl8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
